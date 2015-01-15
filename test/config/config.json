@@ -1,0 +1,15 @@
+{
+	"parameters": {
+		"environment": "production",
+		"lastname": "Seven"
+	},
+	"imports": [
+		"additional_%environment%.yml",
+		{ "resource": "math-%math_version%.js", "force": true }
+	],
+	"name": "Valentin %lastname%",
+	"languages": { "import": "languages.js" },
+	"city": "Paris",
+	"GMT": 1,
+	"theVersionIs": "The version is %version%"
+}

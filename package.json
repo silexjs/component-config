@@ -1,0 +1,46 @@
+{
+	"name": "silex-component-config",
+	"version": "0.0.1",
+	"description": "[SILEX][COMPONENT] Configuration file manager (json, yml, js)",
+	"author": "Valentin Allaire <valentin@sitexw.fr>",
+	"license": "MIT",
+	"keywords": [
+		"config",
+		"manager",
+		"file",
+		"json",
+		"yml",
+		"js",
+		"configuration",
+		"silex",
+		"component"
+	],
+	"main": "index.js",
+	"dependencies": {
+		"spaceload": "<2.0.0",
+		"js-yaml": "3.x",
+		"object-merge": "2.x"
+	},
+	"devDependencies": {
+		"mocha": "2.x"
+	},
+	"scripts": {
+		"test": "mocha ./test/test.js"
+	},
+	"directories": {
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/silexjs/component-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/silexjs/component-config/issues"
+	},
+	"homepage": "https://github.com/silexjs/component-config",
+	"autoload": {
+		"psr-4": {
+			"Silex\\Component\\Config": "./lib/"
+		}
+	}
+}

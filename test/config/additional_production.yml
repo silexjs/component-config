@@ -1,0 +1,6 @@
+imports:
+    - additional.yml
+theVersionIs: '%version%'
+math:
+    pi: 3.14
+city: Tokyo
