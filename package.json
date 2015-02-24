@@ -1,6 +1,6 @@
 {
 	"name": "silex-component-config",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "[SILEX][COMPONENT] Configuration file manager (json, yml, js)",
 	"author": "Valentin Allaire <valentin@sitexw.fr>",
 	"license": "MIT",
